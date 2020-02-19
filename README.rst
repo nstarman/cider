@@ -7,7 +7,9 @@ Give press to all the apples in your cider.
 .. image:: https://travis-ci.com/nstarman/cider.svg?branch=master
     :target: https://travis-ci.com/nstarman/cider
     :alt: Travis CI Badge
-
+.. image:: https://readthedocs.org/projects/soft-cider/badge/?version=latest
+    :target: https://soft-cider.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 License
 -------
