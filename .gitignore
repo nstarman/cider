@@ -1,3 +1,19 @@
+# git-ignore file
+# split into default python and project-specific sections
+
+###############################################################################
+# Project-Specific
+
+# Ignore Template Files
+/cider/example_mod.py
+/cider/example_subpkg
+/cider/extern
+/cider/tests/test_example.py
+
+
+###############################################################################
+# Default
+
 # Compiled files
 *.py[cod]
 *.a
