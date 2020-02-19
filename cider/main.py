@@ -29,15 +29,15 @@ def load_citation_info(name, mod):
                 return instr.argval
             elif nxtop.opname == "STORE_NAME" and nxtop.argval == "__bibtex__":
                 return instr.argval
-        # If reading literals doesn't work, code has the attribute,
-        # but not a literal, so we need to load
-        loaded_mod = importlib.import_module(name)
-        if "__citation__" in mod.globalnames:
-            return loaded_mod.__citation__
-        elif "__cite__" in mod.globalnames:
-            return loaded_mod.__cite__
-        if "__bibtex__" in mod.globalnames:
-            return loaded_mod.__bibtex__
+    # If reading literals doesn't work, code has the attribute,
+    # but not a literal, so we need to load
+    loaded_mod = importlib.import_module(name)
+    if "__citation__" in mod.globalnames:
+        return loaded_mod.__citation__
+    elif "__cite__" in mod.globalnames:
+        return loaded_mod.__cite__
+    if "__bibtex__" in mod.globalnames:
+        return loaded_mod.__bibtex__
     return -1
 
 
