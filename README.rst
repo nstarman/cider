@@ -4,6 +4,9 @@ Give press to all the apples in your cider.
 .. image:: http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
     :target: http://www.astropy.org
     :alt: Powered by Astropy Badge
+.. image:: https://travis-ci.com/nstarman/cider.svg?branch=master
+    :target: https://travis-ci.com/nstarman/cider
+    :alt: Travis CI Badge
 
 
 License
