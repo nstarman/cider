@@ -16,7 +16,7 @@ __citation__ = None  # TODO with Zenodo
 ##############################################################################
 # IMPORTS
 
-from ._astropy_init import *   # noqa
+from ._astropy_init import *  # noqa
 
 # GENERAL
 
@@ -33,7 +33,6 @@ from ._astropy_init import *   # noqa
 # __all__ += ['do_primes']   # noqa
 # # or you can keep everything from the subpackage with the following instead
 # # __all__ += example_mod.__all__
-
 
 
 ##############################################################################
